@@ -30,7 +30,7 @@
     #courses .section-heading{
         width: 90% !important;
     }
-    .section-heading h2{
+    .section-heading h2, h1{
         font-size: 20px !important;
     }
     .section-heading p{
