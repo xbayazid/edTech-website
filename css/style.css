@@ -1,6 +1,3 @@
-.nav-item{
-    margin-left: 40px;
-}
 .register-btn{
     color: #289BDE;
     text-decoration: none;
@@ -17,10 +14,26 @@
     filter: brightness(60%);
 }
 
-.fa-solid{
-    color: rgb(238, 217, 24);
-}
-
-.fa-brands{
-    color: white;
+@media only screen and (max-width: 767px) {
+    .carousel-caption{
+        width: 80% !important;
+        margin-top: -45px;
+    }
+    .carousel-caption h2{
+        font-size: 18px !important;
+        line-height: 25px;
+    }
+    .carousel-caption p{
+        font-size: 12px !important;
+        line-height: 15px;
+    }
+    #courses .section-heading{
+        width: 90% !important;
+    }
+    .section-heading h2{
+        font-size: 20px !important;
+    }
+    .section-heading p{
+        width: 100% !important;
+    }
 }
