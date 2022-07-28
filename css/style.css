@@ -1,0 +1,26 @@
+.nav-item{
+    margin-left: 40px;
+}
+.register-btn{
+    color: #289BDE;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 20px;
+}
+
+.register-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.img-darken{
+    filter: brightness(60%);
+}
+
+.fa-solid{
+    color: rgb(238, 217, 24);
+}
+
+.fa-brands{
+    color: white;
+}
